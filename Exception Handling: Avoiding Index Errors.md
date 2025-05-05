@@ -11,8 +11,18 @@ To write a Python program that handles an **IndexError** when trying to access a
 3. Print the result based on whether the index access succeeds or fails.
 
 ## 🧾 Program
-Add code here
-
+```
+f=open("story.txt","r")
+count=0
+for lines in f:
+    if lines [0] not in 'T':
+        count+=1
+print(count)
+```
 ## Output
 
+![image](https://github.com/user-attachments/assets/94ea7342-d7f8-4cbf-86a3-3f898f9151f9)
+
+
 ## Result
+Thus the program has been executed successfully.
