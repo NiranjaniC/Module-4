@@ -12,17 +12,14 @@ To write a Python program that handles an **IndexError** when trying to access a
 
 ## 🧾 Program
 ```
-f=open("story.txt","r")
-count=0
-for lines in f:
-    if lines [0] not in 'T':
-        count+=1
-print(count)
+list1=[5, 10, 20]
+try:
+    print(list1[5])
+except:
+    print("You're out of list range")
 ```
 ## Output
-
-![image](https://github.com/user-attachments/assets/94ea7342-d7f8-4cbf-86a3-3f898f9151f9)
-
+![image](https://github.com/user-attachments/assets/00061d96-42ad-40bc-b67f-85e39d44818a)
 
 ## Result
 Thus the program has been executed successfully.
