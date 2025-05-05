@@ -30,9 +30,20 @@ To write a Python program that sorts a dictionary's:
 ---
 
 ## 🧪Program
-Add Code here
+```
+dictionary1 = {1: 2, 5: 12, 6: 18}
+dictionary2 = {4: 24, 2: 56, 3: 323}
+merged_dict = {**dictionary1, **dictionary2}
+sorted_by_value = sorted(merged_dict.items(), key=lambda item: item[1])
+print("Keys and Values sorted in alphabetical order by the value")
+print(sorted_by_value)
+```
 
 ## Sample Output
 
+![image](https://github.com/user-attachments/assets/2fdd4f45-4879-46c2-a917-ca2ad214cb4b)
+
+
 ## Result
+Thus the program has been executed successfully.
 
